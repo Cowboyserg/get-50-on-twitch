@@ -1,23 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import win32clipboard as wc
-import pip
-
-try:
-    from win32api import GetSystemMetrics
-except:
-    pip.main(["install", "pywin32"])
-
-try:
-    import cv2
-except:
-    pip.main(["install", "opencv-python"])
-import numpy as np
 import time
-from PIL import Image, ImageGrab
+import win32clipboard as wc
+from win32api import GetSystemMetrics
+from PIL import ImageGrab
 import pyautogui
-from matplotlib import pyplot as plt
 
 
 def setCP(s):
