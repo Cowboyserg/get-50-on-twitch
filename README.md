@@ -6,4 +6,4 @@ You should run `my_main.py`.
 
 The difference between `my_main.py` and `main.py` is that function to find icon with points was taken from another project, so it works not fast enough.
 
- 
+Be carefull, when program sees icon, it will take control on your mouse and keyboard.
