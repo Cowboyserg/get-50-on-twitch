@@ -82,13 +82,12 @@ def append_in_file(inf):
 
 def get_url() -> str:
     sp_start = getCP()
-    pyautogui.keyDown('ctrl')
-    pyautogui.press('l')
-    pyautogui.keyUp('ctrl')
+    pyautogui.press("f6")
     pyautogui.keyDown('ctrl')
     pyautogui.press('c')
     pyautogui.keyUp('ctrl')
     cp_new = getCP()
+    setCP("")
     setCP(sp_start)
     return cp_new
 
