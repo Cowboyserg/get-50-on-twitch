@@ -3,4 +3,4 @@ numpy==1.19.0
 matplotlib==3.2.2
 PyAutoGUI==0.9.50
 pywin32==228
-Pillow==8.0.1
+Pillow>=8.1.1
